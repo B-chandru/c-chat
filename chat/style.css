@@ -1,0 +1,125 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #2a2a2b;
+    font-family: 'Poppins', sans-serif;
+  }
+   #form { 
+     background: rgba(0, 0, 0, 0.15); 
+     padding: 0.25rem; 
+     position: fixed;
+      bottom: 0;
+       left: 0; 
+       right: 0;
+        display: flex;
+         height: 3rem;
+          box-sizing: border-box;
+           backdrop-filter: blur(10px);
+            }
+   #input { 
+     border: none; 
+     padding: 0 1rem;
+      flex-grow: 1;
+       border-radius: 2rem; 
+       margin: 0.25rem; 
+       }
+   #input:focus { 
+     outline: none;
+      }
+   #form > button {
+      background: #333; 
+      border: none; 
+      padding: 0 1rem;
+       margin: 0.25rem;
+        border-radius: 40px;
+         outline: none;
+           }
+     #header{
+       width: 100%;
+       background-color: #2196f3;
+       height: 80px;
+     }
+     ul{
+       list-style: none;
+       display: flex;
+       color: white;
+     }
+     .user{
+       width: 80px;
+       height:67px;
+       margin-top:5px;
+       border-radius: 50%;
+  
+     }
+     h2{
+       margin-top:16px;
+     }
+     h3{
+       display: flex;
+     }
+  #msg{
+   background-color: rebeccapurple;
+  color: white;
+  margin-top: 10px;
+  border-radius: 49px;
+  min-width: 200px;
+  min-height: 55px;
+  padding-left:17px ;
+  }
+  span{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 23px;
+   color: grey;
+  }
+  .msg-others{
+  margin-top: 10px;
+  box-shadow: 2px 0px 5px black;
+  border-radius: 8px;
+  background-color:#03a9f4;
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  margin-bottom: 12px;
+  }
+  .msg{
+    font-size: 19px;
+  }
+  .time{
+      font-size: 10px;
+      margin-top: 8px;
+  }
+  .msg-ours{
+    margin-top: 10px;
+    background-color: white;
+    color: #178fef;
+    box-shadow: 2px 0px 5px black;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 12px;
+    width: calc(100% - 20%);
+  }
+  .name{
+    display: flex;
+    justify-content: start;
+    color:#1d1b1b;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .time{
+  color: #1d1b1b;
+  }
+  .fa-user-circle{
+    font-size: 72px;
+    color: black;
+  }
+  .fa-share {
+    content: "\f064";
+    color: #03a9f4;
+    font-size: large;
+  
+  }
