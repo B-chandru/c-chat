@@ -1,9 +1,6 @@
 # c-chat
 This website enables you to chat with strangers who are all using the same link
 
-### live site
-
-https://c-chat-real.herokuapp.com/
 
 ## introduction
 
